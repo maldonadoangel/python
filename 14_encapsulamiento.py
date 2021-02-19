@@ -1,11 +1,11 @@
 class Persona:
     def __init__(self, nombre):
         self.__nombre = nombre
-   #get se utiliza para mostrar o retornar el valor de nuestro atributo
+#get se utiliza para mostrar o retornar el valor de nuestro atributo
     def get_nombre(self):
-       return self.__nombre
-   #set para modificar el valor del atributo, ya que el encapsulamiento solo nos deja
-   #trabajar de forma indirecta con los atributos y asi proteger la información
+     return self.__nombre
+#set para modificar el valor del atributo, ya que el encapsulamiento solo nos deja
+#trabajar de forma indirecta con los atributos y asi proteger la información
     def set_nombre(self, nombre):
         self.__nombre = nombre
 
